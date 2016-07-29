@@ -8,6 +8,9 @@ private:
   int largeur;
 
 public:
+  Rectangle(int longueur, int largeur);
+  int getLongueur() const;
+  int getLargeur() const;
   void aire() const;
 };
 
